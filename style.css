@@ -1,0 +1,68 @@
+html{
+    background: rgb(192, 192, 192);
+}
+
+body{
+    margin: 0;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 500px;
+  border: 40px solid;
+  border-radius: 10px;
+  border-color: red;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.grid-item{
+    display: flex;
+    text-align: center;
+    background: whitesmoke;
+    font-size: 45px;
+    
+}
+
+.color{
+    background: black;
+}
+
+.buttons{
+    background: rgb(224, 224, 224);
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    width: 580px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 70px;
+}
+
+#top{
+    position: relative;
+    font-size: 50px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 8em;
+    background: rgb(224, 224, 224);
+    text-align: center;
+}
